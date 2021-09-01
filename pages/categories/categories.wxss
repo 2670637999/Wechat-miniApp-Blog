@@ -1,0 +1,28 @@
+page,.box {
+  background-color: #f0f0f0;
+  width: 100%;
+  height: 100%;
+}
+.header {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  background-size: cover;
+  width: 100%;
+  overflow: hidden;
+}
+.header view {
+  font-size: 1rem;
+  color: #000;
+  width: 100%;
+  height: 35px;
+}
+.header view:nth-child(2){
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+}

@@ -1,0 +1,113 @@
+.box {
+  background-color: #f0f0f0;
+}
+.header {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  background-size: cover;
+  width: 100%;
+  overflow: hidden;
+}
+.header view {
+  font-size: 1rem;
+  color: #000;
+  width: 100%;
+  height: 35px;
+}
+.header view:nth-child(2){
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+}
+.page_title {
+  font-size: 2rem !important;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.page_content {
+  background-color: #fff;
+}
+.page_back {
+  position: absolute;
+  left: 15px;
+  top: 55px;
+  font-size: 1rem !important;
+}
+.articles {
+  width: 100%;
+  height: 100%;
+  padding: 0px 10px;
+  margin-top: 10px;
+  box-sizing: border-box;
+}
+.article:nth-child(1){
+  margin-top: 95px;
+}
+.article {
+  transition: 0.51s;
+  background-color: #fff;
+  /* box-shadow: 0px 5px 10px 0px rgb(192, 191, 191); */
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+  overflow: hidden;
+  /* height: 80px; */
+  max-height: 150px;
+  border-bottom: 1px solid #ebebeb;
+}
+.articleImg {
+  margin: 0;
+  margin-right: 10px;
+  width: 150px;
+  overflow: hidden;
+}
+.articleImg image{
+  width: 100%;
+  height: 100%;
+}
+.articleBox {
+  width: 100%;
+}
+.article:last-child{
+  border: none;
+}
+.article .title {
+  font-size: 12px;
+  margin: 0px 0px 10px 0px;
+  padding-left: 10px;
+  border-left: 2px solid cornflowerblue;
+}
+.article .subtitle {
+  margin: 0px 0px 10px 0px;
+  font-size: 12px;
+}
+.article .content {
+  font-size: 10px;
+  color: #969696;
+}
+.article .time {
+  padding: 5px 0px 5px 0px;
+  color: rgb(184, 176, 176);
+  font-size: 10px;
+  margin: 0px 0px 0px 0px;
+}
+.article .time text:nth-child(1) {
+  border: 0.5px solid #cacaca;
+  padding: 0px 10px;
+  border-radius: 99rem;
+}
+.article .time text:nth-child(2){
+  margin-left: 15px;
+  color: #969696;
+}
+.article .time text:last-child {
+  float: right;
+  /* font-size: 12px; */
+}

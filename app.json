@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/about/about",
+    "pages/articles/articles",
+    "pages/categories/categories",
+    "pages/article/article"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "陈陈菌博客",
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "/images/文章.png",
+        "selectedIconPath": "/images/文章.png",
+        "text": "文章"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "iconPath": "/images/aboutme.png",
+        "selectedIconPath": "/images/aboutme.png",
+        "text": "关于"
+      },
+      {
+        "pagePath": "pages/categories/categories",
+        "iconPath": "/images/分类.png",
+        "selectedIconPath": "/images/分类.png",
+        "text": "分类"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

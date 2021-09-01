@@ -1,0 +1,6 @@
+<view class="box">
+  <view class="header">
+    <view></view>
+    <view>分类</view>
+  </view>
+</view>

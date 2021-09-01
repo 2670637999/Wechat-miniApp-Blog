@@ -1,0 +1,13 @@
+<view class="box">
+  <view class="header">
+    <image src="{{ img }}"></image>
+    <view class="page_title">{{ Title }}</view>
+  </view>
+  
+  <view class="article">
+    <!-- <import src="/lib/wxParse/wxParse.wxml"/>
+    <template is="wxParse" data="{{wxParseData:article.nodes}}"/> -->
+    <rich-text nodes="{{ Content }}"></rich-text>
+  </view>
+
+</view>

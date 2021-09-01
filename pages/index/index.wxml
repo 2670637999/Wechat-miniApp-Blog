@@ -1,0 +1,22 @@
+<view class="box">
+  <view class="header">
+    <view></view>
+    <view wx:if="{{ articleInfo }}">文章</view>
+  </view>
+  <view class="articles">
+
+    <view class="article"  wx:for="{{ articles }}" wx:if="{{ articleInfo }}"  bindtap="ToArticle" data-message="{{ item }}">
+    <view class="articleImg"><image src="{{ item.imgURL }}"></image></view>
+    <view class="articleBox">
+      <view class="title">{{ articlesTitles[index] }}</view>
+      <!-- <view class="subtitle" wx:if="{{ item.subtitle }}">{{ item.subtitle }}</view> -->
+      <view class="content">{{ articleContents[index] }}</view>
+      <view class="time">
+        分类：<text>{{ item.categorie }}</text>
+        <text>发表于 {{ item.Time }}</text>
+      </view>
+    </view>
+    </view>
+  
+  </view>
+</view>

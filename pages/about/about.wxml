@@ -1,0 +1,9 @@
+<view class="box">
+  <view class="header">
+    <view></view>
+    <view>关于</view>
+  </view>
+  <view class="article">
+    <rich-text nodes="{{ Content }}"></rich-text>
+  </view>
+</view>
